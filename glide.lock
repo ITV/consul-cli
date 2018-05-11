@@ -1,8 +1,8 @@
-hash: e50b4f41db9304f7dcf8e7848ca52a13d412d99f29e5db7effa6ad93d660024e
-updated: 2017-04-06T17:17:45.030596245-05:00
+hash: 21438bb25a7de7b56174938ea5ae4da2df6ad40d4f3e083dc7f76c1c88245029
+updated: 2018-05-11T12:11:26.977362743+01:00
 imports:
 - name: github.com/hashicorp/consul
-  version: 8471360c9edbb66215cf5dd10ab8d333ea937766
+  version: fb848fc48818f58690db09d14640513aa6bf3c02
   subpackages:
   - api
 - name: github.com/hashicorp/errwrap
@@ -11,6 +11,8 @@ imports:
   version: ad28ea4487f05916463e2423a55166280e8254b5
 - name: github.com/hashicorp/go-multierror
   version: 8484912a3b9987857bac52e0c5fec2b95f419628
+- name: github.com/hashicorp/go-rootcerts
+  version: 6bb64b370b90e7ef1fa532be9e591a81c3493e00
 - name: github.com/hashicorp/hcl
   version: 7cb7455c285ca3bf3362aa4ba6a06a6d6f5c3ba0
   subpackages:
@@ -28,6 +30,8 @@ imports:
   - coordinate
 - name: github.com/inconshreveable/mousetrap
   version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/mitchellh/go-homedir
+  version: b8bc1bf767474819792c23f32d8286a45736f1c6
 - name: github.com/spf13/cobra
   version: 9495bc009a56819bdb0ddbc1a373e29c140bc674
 - name: github.com/spf13/pflag

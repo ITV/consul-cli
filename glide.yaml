@@ -1,7 +1,7 @@
 package: github.com/mantl/consul-cli
 import:
 - package: github.com/hashicorp/consul
-  version: master
+  version: v1.0.7
   subpackages:
   - api
 - package: github.com/spf13/cobra
