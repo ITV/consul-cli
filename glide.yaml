@@ -1,4 +1,4 @@
-package: github.com/mantl/consul-cli
+package: github.com/itv/consul-cli
 import:
 - package: github.com/hashicorp/consul
   version: v1.0.7
